@@ -1,0 +1,12 @@
+prefix=c:/Home_Loan/Brahmam/Library
+exec_prefix=c:/Home_Loan/Brahmam/Library
+libdir=c:/Home_Loan/Brahmam/Library/lib
+includedir=c:/Home_Loan/Brahmam/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
